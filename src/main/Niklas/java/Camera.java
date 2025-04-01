@@ -1,8 +1,8 @@
 public class Camera {
 
     private double height;
-    private double diameter = height * 2;
     private double radius = height;
+    private double diameter = radius * 2;
 
 
     public double getHeight() {
